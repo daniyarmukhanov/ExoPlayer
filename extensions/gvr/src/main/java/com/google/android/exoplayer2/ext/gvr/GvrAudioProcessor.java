@@ -33,6 +33,7 @@ public final class GvrAudioProcessor implements AudioProcessor {
   private static final int OUTPUT_FRAME_SIZE = OUTPUT_CHANNEL_COUNT * 2; // 16-bit stereo output.
 
   private int sampleRateHz;
+  // LOL this my porject my now
   private int channelCount;
   private GvrAudioSurround gvrAudioSurround;
   private ByteBuffer buffer;
